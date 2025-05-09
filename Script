@@ -8,7 +8,7 @@ local function Notify(title, text, button, duration)
         Duration = duration or 5
     })
 end
-Notify("Внимание!", "Скрипт может временно крашнуть игру", nil, 5) -- Без кнопки
+Notify("Внимание!", "Скрипт может временно крашнуть игру", nil, 10) -- Без кнопки
 task.wait(0.5)
 Notify("Загружаем скрипт...", "Обычно это занимает до 1-ой минуты", nil, 10)
 task.wait(0.5)
