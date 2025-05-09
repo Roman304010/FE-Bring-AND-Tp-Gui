@@ -8,9 +8,9 @@ local function Notify(title, text, button, duration)
         Duration = duration or 5
     })
 end
-Notify("Внимание!", "Скрипт может временно крашнуть игру", nil, 10) -- Без кнопки
+Notify("Внимание!", "Скрипт может временно крашнуть игру", nil, 5) -- Без кнопки
 task.wait(0.5)
-Notify("Загружаем скрипт...", "Обычно это занимает до 1-ой минуты", nil, 10)
+Notify("Загружаем скрипт...", "Обычно это занимает до 1-ой минуты", nil, 5)
 task.wait(0.5)
 Notify("Чтобы перезапустить скрипт, перезайдите", "Чтобы избежать кика из-за защиты скрипта от взлома", "Я понимаю", 10)
 -- This script was protected using the MoonVeil Obfuscator v1.1.2 [https://moonveil.cc]
